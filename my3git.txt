@@ -1,7 +1,11 @@
 <<<<<<< HEAD
 =======
 ﻿Correction du problème.
+<<<<<<< Updated upstream
 >>>>>>> master
+=======
+﻿je modifie tout newfonc !
+>>>>>>> Stashed changes
 bonsoir mathis
 Bonsoir Roméo le bg 
 Fin d ecréation de fonctionnalité
