@@ -1,0 +1,242 @@
+    /*Convention BEM pour l'écriture*/
+
+/*Settings*/
+/*Tools*/
+/*Generic*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: black;
+}
+
+h1,
+h2,
+p {
+	font-family: "Avenir";
+}
+
+img {
+	max-width: 70%;
+	height: auto;
+	transition-duration: 0.4s;
+}
+
+/*Elements*/
+
+
+.polices__h1,
+.polices__h2,
+.polices__texte
+{
+	color: black;
+	background-color: #8AE1E7;
+  font-family: "Avenir";
+	margin: 20px;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.polices__h1 {
+	 font-size: 48px;
+}
+
+.polices__h2 {
+	font-size : 32px;
+}
+
+.polices__texte {
+	font-size : 15px;
+}
+
+/*Objects*/
+/*Components*/
+
+.polices,
+.boutons,
+.newsletter,
+.produit {
+	text-align: center;
+	justify-content: center;
+	font-family: "Avenir";
+	padding: 50px;
+	margin: 50px;
+}
+
+.boutons {
+	display: flex;
+}
+
+.newsletter,
+.produit {
+	background: #FF7C64;
+	display: block;
+	margin-left: 520px;
+	margin-right: 520px;
+	border-radius: 10px;
+}
+
+
+
+/*Utilities*/
+
+/*Utilities__Boutons*/
+
+.boutons__grand {
+	font-size: 18px;
+	display: flex;
+}
+
+.boutons__petit {
+	font-size: 14px;
+	display: flex;
+}
+
+.boutons__principal__grand
+{
+	background-color: #FF7C64;
+	padding: 20px;
+	margin: 10px;
+	color: white;
+	border-radius: 90px;
+}
+
+.boutons__secondaire__grand
+{
+	background-color: #8AE1E7;
+	padding: 20px;
+	margin: 10px;
+	color: black;
+	border-radius: 90px;
+}
+
+.boutons__principal__petit
+{
+	background-color: #FF7C64;
+	padding: 20px;
+	margin: 10px;
+	color: white;
+	border-radius: 90px;
+}
+
+.boutons__secondaire__petit
+{
+	background-color: #8AE1E7;
+	padding: 20px;
+	margin: 10px;
+	color: black;
+	border-radius: 90px;
+}
+
+.boutons__principal__grand:hover,
+.boutons__principal__petit:hover
+{
+	padding: 20px;
+	margin: 10px;
+	color: white;
+	border-radius: 90px;
+	background: white;
+	color: #FF7C64;
+	border: 2px solid #FF7C64;
+	transition-duration: 0.4s;
+}
+
+.boutons__secondaire__grand:hover,
+.boutons__secondaire__petit:hover
+{
+	padding: 20px;
+	margin: 10px;
+	color: white;
+	border-radius: 90px;
+	background: white;
+	color: black;
+	border: 2px solid #8AE1E7;
+	transition-duration: 0.4s;
+}
+
+/*Utilities__Newsletter*/
+
+.newsletter__text,
+.newsletter__mail,
+.newsletter__submit {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 3px;
+	border: 3px solid white;
+	margin: 5px;
+}
+
+.newsletter__submit {
+	background: #8AE1E7;
+	border: none;
+}
+
+.newsletter__titre,
+.produit__titre,
+.produit__prix {
+	font-size: 32px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: white;
+}
+
+.newsletter__error {
+	padding: 10px;
+	color: white;
+}
+
+/*Utilities__Produit*/
+
+.produit__image {
+	text-align: center;
+	margin: 20px;
+}
