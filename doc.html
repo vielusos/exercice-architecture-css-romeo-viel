@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fonctions.js"></script>
+    <meta charset="utf-8">
+    <title>Style guide</title>
+
+  </head>
+
+  <body>
+
+    <div class="polices">
+
+      <h1 class="polices__h1">Police H1</h1>
+      <h2 class="polices__h2">Police H2</h2>
+      <p class="polices__texte">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua.</p>
+
+    </div>
+
+    <div class="boutons">
+      <div class="boutons__grand">
+
+        <div class="boutons__principal__grand">
+          <h1>Bouton Principal</h1>
+          <a href="">En savoir plus</a>
+        </div>
+
+        <div class="boutons__secondaire__grand">
+          <h1>Bouton Secondaire</h1>
+          <a href="">En savoir plus</a>
+        </div>
+
+      </div>
+
+      <div class="boutons__petit">
+
+        <div class="boutons__principal__petit">
+          <h2>Bouton Principal</h2>
+          <a href="">En savoir plus</a>
+        </div>
+
+        <div class="boutons__secondaire__petit">
+          <h2>Bouton Secondaire</h2>
+          <a href="">En savoir plus</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="newsletter">
+
+      <h1 class="newsletter__titre">Titre formulaire</h1>
+
+      <form class="newsletter__form" action="doc.html" onsubmit="return validateForm();" method="post">
+        <input class="newsletter__text" placeholder="Text" type="text" name="" value="">
+        <label for="newsletter__mail"></label>
+        <input id="newsletter__mail" class="newsletter__mail" placeholder="Mail" type="email" name="" value="">
+        <div class="newsletter__error">
+            <span id="newsletter__error__texte"></span>
+        </div>
+        <input id="newsletter__submit"class="newsletter__submit" type="submit" name="" value="S'inscrire à la newsletter">
+      </form>
+    </div>
+
+    <div class="produit">
+
+      <h2 class="produit__titre">Exemple produit</h2>
+      <div class="produit__image">
+        <img src="masque.jpg" alt="">
+      </div>
+      <p class="produit__texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      <h2 class="produit__prix">3€</h2>
+      <div class="boutons__secondaire__grand">
+        <h1>Ajouter au panier</h1>
+      </div>
+
+    </div>
+
+  </body>
+</html>
